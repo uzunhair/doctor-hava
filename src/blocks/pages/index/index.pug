@@ -8,12 +8,65 @@ block head
 block header
 
 block content
-	.container.pt-2
-		h1.bg-light.py-5.text-center Hello World!!!
 
-		+breadcrumb('Страница', ['Категория'])
+	section.section.contact
+		.container
+			.row.contact__list
+				.col-6.contact__col
+					.contact__item
+						.contact__title WhatsApp
+						a(href="whatsapp://send?phone=79280001122&amp;text="
+							target="_top"
+							aria-label="Написать в WhatsApp") +79280001122
+				.col-6.contact__col
+					.contact__item
+						.contact__title Instagram
+						a(href="whatsapp://send?phone=79280001122&amp;text="
+							target="_top"
+							aria-label="Написать в WhatsApp")
+							div @dr.tamazova
 
-		include ../../components/pagination/pagination
+	section.section.about
+		.container
+			.section__card
+				h2.h4 О докторе
+				.position-relative
+					svg.link__graphic.link__graphic--stroke.link__graphic--scribble(width='100%', height='9', viewbox='0 0 101 9')
+						path(d='M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294', pathlength='1')
+
+				ul.list-unstyled
+					li Кандидат Медицинских наук
+					li Член проф. ассоциаций России, Европы, США
+					li Член научного совета Евпропейской лиги Эндометриоза
+					li Вице-президент Ассоциации Специалистов по Эстетической Гинекологии
+					li Доцент кафедры акушерства и гинекологии РМАНПО
+
+	section.section.consultation
+		.container
+			.section__card
+				h2.h4 Консультация гинеколога
+				.position-relative
+					svg.link__graphic.link__graphic--stroke.link__graphic--scribble(width='100%', height='9', viewbox='0 0 101 9')
+						path(d='M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294', pathlength='1')
+
+				div Во время консультации, которая обычно занимает не больше 1 часа, я расскажу, как могу помочь вам и при необходимости проведу осмотр,
+					| УЗИ, и назначу только нужные для дальнейшего лечения анализы.Актуальные цены и адрес клиники вы можете узнать по телефону: +7 000 000 00 00
+
+	section.section.operation
+		.container
+			.section__card
+				h2.h4 Лапаротомные и лапароскопические операции
+				.position-relative
+					svg.link__graphic.link__graphic--stroke.link__graphic--scribble(width='100%', height='9', viewbox='0 0 101 9')
+						path(d='M.426 1.973C4.144 1.567 17.77-.514 21.443 1.48 24.296 3.026 24.844 4.627 27.5 7c3.075 2.748 6.642-4.141 10.066-4.688 7.517-1.2 13.237 5.425 17.59 2.745C58.5 3 60.464-1.786 66 2c1.996 1.365 3.174 3.737 5.286 4.41 5.423 1.727 25.34-7.981 29.14-1.294', pathlength='1')
+
+				ul.list-unstyled
+					li Миомэктомия и аденомиомэктомия (удаление миоматозных и аденомиозных узлов), в том числе с временной редукцией кровотока
+					li Гистерэктомия (удаление матки)  при миоме матки, аденомиозе, онкологических заболеваниях
+					li Коррекция опущения матки (классические и модифицированные методики)
+					li Пластика несостоятельного рубца на матке после кесарева сечения
+					li Органосохраняющие и радикальные операции при новообразованиях и кистах яичников
+
 
 block footer
 

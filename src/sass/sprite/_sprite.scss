@@ -1,0 +1,35 @@
+.icon {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  position: relative;
+}
+
+[data-stroke="true"] {
+  stroke: currentColor;
+}
+[data-fill="true"] {
+  fill: currentColor;
+}
+
+.icon-consultation {
+  width:(100/100)*1em;
+}
+
+.icon-doctor {
+  width:(100/100)*1em;
+}
+
+.icon-surgery {
+  width:(93/93)*1em;
+}
+
+.icon-user {
+  width:(25/25)*1em;
+}
+
+.icon-сontact {
+  width:(28/28)*1em;
+}
+

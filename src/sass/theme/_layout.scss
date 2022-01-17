@@ -1,5 +1,6 @@
 .layout {
   display: flex;
+  background-color: #eef2f8;
   flex-direction: column;
   &-wrapper{
     display: flex;
@@ -9,4 +10,26 @@
   &-navbar {
     padding: 0;
   }
+}
+
+.section {
+  padding-top: $container-padding-x;
+
+  &__card {
+    background-color: #ffffff;
+    padding: 14px 14px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.1) 0 1px 2px -1px;
+    border-radius: 8px;
+  }
+}
+
+.link__graphic {
+  position: absolute;
+  top: -8px;
+  left: 0;
+  pointer-events: none;
+  fill: none;
+  stroke: #fb8b0a;
+  stroke-width: 1px;
+  width: 95px;
 }

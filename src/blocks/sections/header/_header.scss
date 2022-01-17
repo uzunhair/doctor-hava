@@ -1,0 +1,104 @@
+.header {
+  &__name {
+    color: #ffffff;
+    position: relative;
+    padding: 8px 0;
+    background-image: url(http://stomatolog.website/wp-content/uploads/2019/11/billing-footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    //&:after {
+    //  content: "";
+    //  position: absolute;
+    //  bottom: 0;
+    //  left: 0;
+    //  width: 100%;
+    //  height: 1px;
+    //  background: radial-gradient(ellipse at left, #dddddd 0%, rgba(255, 255, 255, 0) 90%);
+    //  z-index: 2;
+    //}
+  }
+
+  &__title {
+    font-size: 18px;
+    margin-bottom: 0.125rem;
+    font-weight: 500;
+  }
+
+  &__subtitle {
+    font-size: 16px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color: #7f7d7d;
+  }
+
+  &__nav {
+    background-color: #ffffff;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.1) 0 1px 2px -1px;
+  }
+
+  &__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      height: 50px;
+      border-radius: 3px;
+    }
+  }
+}
+
+.nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-item {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:first-child .nav-link:before {
+    display: none;
+  }
+}
+
+//.nav-divider {
+//  position: relative;
+//  &:before {
+//    content: '';
+//    position: absolute;
+//    left: 0;
+//    top: 0;
+//    bottom: auto;
+//    width: 1px;
+//    height: 100%;
+//    background: radial-gradient(ellipse at top, rgba(2, 0, 0, 0.4) 0%, rgba(255, 255, 255, 0) 90%);
+//  }
+//}
+
+.nav-link {
+  color: #020000;
+  font-size: 14px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+
+  .icon {
+    font-size: 24px;
+    margin-bottom: 0.125rem;
+    color: rgba(2, 0, 0, 0.8);
+  }
+}
+
+.align-items-center {
+  align-items: center;
+}
