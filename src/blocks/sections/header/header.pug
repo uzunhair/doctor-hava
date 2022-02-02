@@ -1,38 +1,39 @@
 header.header
-	.header__name
-		.container
+	.container
+		.header__card
 			.row.align-items-center
 				.col
 					h1.header__title Тамазаева Хава Насрулаевна
 					h2.header__subtitle Хирург гинеколог
 				.col-auto
 					.header__img
-						+img("male-04.jpg")
-	.header__nav
-		.container
-			ul.nav
-				li.nav-item
-					a.nav-link(aria-current="page" href="#")
-						+icon("doctor")
-						span О докторе
+						+img("avatar.jpg")
 
-				li.nav-divider
-				li.nav-item
-					a.nav-link(aria-current="page" href="#")
-						+icon("consultation")
-						span Консультации
-				li.nav-divider
-				li.nav-item
-					a.nav-link(aria-current="page" href="#")
-						+icon("surgery")
-						span Операции
-				li.nav-divider
-				li.nav-item
+		//-.header__nav
+			.container
+				ul.nav
+					li.nav-item
+						a.nav-link(aria-current="page" href="#")
+							+icon("doctor")
+							span О докторе
+
+					li.nav-divider
+					li.nav-item
+						a.nav-link(aria-current="page" href="#")
+							+icon("consultation")
+							span Консультации
+					li.nav-divider
+					li.nav-item
+						a.nav-link(aria-current="page" href="#")
+							+icon("surgery")
+							span Операции
+					li.nav-divider
+					li.nav-item
 
 
-					a.nav-link(aria-current="page" href="#")
-						+icon("сontact")
-						span Контакты
+						a.nav-link(aria-current="page" href="#")
+							+icon("сontact")
+							span Контакты
 
 		block header
 

@@ -402,7 +402,7 @@ $position-values: (
 // Settings for the `<body>` element.
 
 $body-bg:                   $white !default;
-$body-color:                $gray-900 !default;
+$body-color:                $black !default;
 $body-text-align:           null !default;
 
 // Utilities maps
@@ -467,10 +467,10 @@ $paragraph-margin-bottom:   1rem !default;
 $grid-breakpoints: (
         xs: 0,
         sm: 576px,
-        md: 768px,
-        lg: 992px,
-        xl: 1200px,
-        xxl: 1400px
+        //md: 768px,
+        //lg: 992px,
+        //xl: 1200px,
+        //xxl: 1400px
 ) !default;
 // scss-docs-end grid-breakpoints
 
@@ -485,10 +485,10 @@ $grid-breakpoints: (
 // scss-docs-start container-max-widths
 $container-max-widths: (
         sm: 540px,
-        md: 720px,
-        lg: 960px,
-        xl: 1140px,
-        xxl: 1320px
+        //md: 720px,
+        //lg: 960px,
+        //xl: 1140px,
+        //xxl: 1320px
 ) !default;
 // scss-docs-end container-max-widths
 

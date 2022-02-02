@@ -1,21 +1,28 @@
 .about {
+
+  &__card {
+    padding: $container-padding-x;
+    border-radius: 0 0 5px 5px;
+    background-color: #dbcbbe;
+    position: relative;
+  }
+
   ul {
     margin-bottom: 0;
   }
   li {
-    padding: 4px 0;
+    padding: 2px 0;
+    display: flex;
   }
-  li + li {
-    position: relative;
-    &:after {
-      content: "";
-      position: absolute;
-      left: 0;
-      top: 0;
-      width: 100%;
-      height: 1px;
-      background: radial-gradient(ellipse at left, #dddddd 0%, rgba(255, 255, 255, 0) 90%);
-    }
+
+  &__list {
+    padding: $container-padding-x;
+    border-radius: 10px;
+    background-color: #f3f2f1;
+  }
+
+  &__item-icon {
+    padding-right: 3px;
   }
 }
 
