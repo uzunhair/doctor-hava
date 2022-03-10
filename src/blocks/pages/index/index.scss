@@ -2,7 +2,7 @@
 
   &__card {
     padding: $container-padding-x;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 14px 14px;
     background-color: #dbcbbe;
     position: relative;
   }
@@ -28,29 +28,41 @@
 
 .contact {
   &__col {
-    &:first-child {
-      padding-right: $container-padding-x/2;
-    }
-    &:last-child {
-      padding-left: $container-padding-x/2;
+    margin-bottom: $container-padding-x;
+
+    @include media-breakpoint-up(sm) {
+      &:first-child {
+        padding-right: $container-padding-x/2;
+      }
+      &:last-child {
+        padding-left: $container-padding-x/2;
+      }
     }
   }
 
   &__item {
-    box-shadow: rgba(0, 0, 0, 0.1) 0 1px 3px 0, rgba(0, 0, 0, 0.1) 0 1px 2px -1px;
-    background-color: #ffffff;
-    border-radius: 4px;
+    background-color: #5CE1E6;
+    border-radius: 10px;
     padding: 6px 14px;
-    color: #fb8b0a;
-    a {
-      color: rgba(36, 34, 47, 1);
-      text-decoration: none;
+    color: rgba(36, 34, 47, 1);
+    text-decoration: none;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+    &:hover, &:focus {
+      color: rgba(36, 34, 47, 0.8);
+    }
+
+    .icon {
+      font-size: 26px;
+      margin-right: 8px;
     }
   }
 
   &__title {
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 400;
+    font-size: 16px;
   }
 }
 

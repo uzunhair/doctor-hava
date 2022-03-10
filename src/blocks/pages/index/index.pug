@@ -9,23 +9,6 @@ block header
 
 block content
 
-	//-section.section.contact
-		.container
-			.row.contact__list
-				.col-6.contact__col
-					.contact__item
-						.contact__title WhatsApp
-						a(href="whatsapp://send?phone=79280001122&amp;text="
-							target="_top"
-							aria-label="Написать в WhatsApp") +79280001122
-				.col-6.contact__col
-					.contact__item
-						.contact__title Instagram
-						a(href="whatsapp://send?phone=79280001122&amp;text="
-							target="_top"
-							aria-label="Написать в WhatsApp")
-							div @dr.tamazova
-
 	section.about
 		.container
 			.about__card
@@ -73,14 +56,131 @@ block content
 	section.section.operation
 		.container
 			.section__card
-				.section__card-body
-					h2.h4 Лапаротомные и лапароскопические операции
-					ul.list-unstyled
-						li Миомэктомия и аденомиомэктомия (удаление миоматозных и аденомиозных узлов), в том числе с временной редукцией кровотока
-						li Гистерэктомия (удаление матки)  при миоме матки, аденомиозе, онкологических заболеваниях
-						li Коррекция опущения матки (классические и модифицированные методики)
-						li Пластика несостоятельного рубца на матке после кесарева сечения
-						li Органосохраняющие и радикальные операции при новообразованиях и кистах яичников
+
+				div(class="swiper mySwiper")
+					div(class="swiper-wrapper")
+						div(class="swiper-slide")
+							.swiper__body
+								h2.swiper__title Лапароскопические операции
+								ul.list-unstyled
+									li
+										span.d-none 1.
+										span Гистероэктомия (удаление матки) при миоме матки, аденомиозе.
+									li
+										span.d-none 2.
+										span Консервативная миомэктомия.
+									li
+										span.d-none 3.
+										span Органосохраняющие операции при новообразованиях и кистах яичников.
+									li
+										span.d-none 4.
+										span Хирургическое лечение спаечного процесса.
+									li
+										span.d-none 5.
+										span Операции при бесплодии (диагностика и проверка проходимости маточных труб, восстановление проходимости маточных труб.
+									li
+										span.d-none 6.
+										span Хирургическая активация функции яичников по авторской методике.
+									li
+										span.d-none 7.
+										span Хирургическая контрацепция (перевязка маточных труб).
+						div(class="swiper-slide")
+							.swiper__body
+								h2.swiper__title Гистерорезектоскопия
+								ul.list-unstyled
+									li
+										span.d-none 1.
+										span Удаление полипов и миоматозных узлов матки.
+									li
+										span.d-none 2.
+										span Синдром Ашермана.
+									li
+										span.d-none 3.
+										span Диагностическая гистероскопия.
+						div(class="swiper-slide")
+							.swiper__body
+								h2.swiper__title Вагинальные операции и эстетическая гинекология
+								ul.list-unstyled
+									li
+										span.d-none 1.
+										span Пластика стенок влагалища при опущении, цистоцеле, ректоцеле, несостоятельности мышц тазового дна по модифицированной методике.
+									li
+										span.d-none 2.
+										span Коррекция формы и размера малых половых губ по модифицированной методике.
+									li
+										span.d-none 3.
+										span Гименопластика.
+									li
+										span.d-none 4.
+										span Удаление кист влагалища.
+									li
+										span.d-none 5.
+										span Коррекция стрессового недержания мочи при помощи (PRP-терапии и филлеров) AМALAIN.
+									li
+										span.d-none 6.
+										span Безоперационное сужение влагалища с помощью объемообразующих субстанций, аугументация точки G и клитора (AМALAIN, RegenLab, Сферогель).
+									li
+										span.d-none 7.
+										span Лечение рубцовой деформации тканей промежности.
+						div(class="swiper-slide")
+							.swiper__body
+								h2.swiper__title Малые операции
+								ul.list-unstyled
+									li
+										span.d-none 1.
+										span Диагностическая аблация эндометрия (пайпель).
+									li
+										span.d-none 2.
+										span Внутриматочная PRP-терапия при хроническом эндометрите, синдроме тонкого эндометрия.
+									li
+										span.d-none 3.
+										span PRP-терапия патологий шейки матки.
+									li
+										span.d-none 4.
+										span ФДТ и радиоволновая терапия патологий шейки матки.
+									li
+										span.d-none 5.
+										span ФДТ склероатрофического лихена.
+						div(class="swiper-slide")
+							.swiper__body
+								h2.swiper__title Консервативная терапия
+								ul.list-unstyled
+									li
+										span.d-none 1.
+										span Лечение СПКЯ по авторской методике.
+									li
+										span.d-none 2.
+										span Anti-age терапия.
+									li
+										span.d-none 3.
+										span Чек-ап женского здоровья.
+									li
+										span.d-none 4.
+										span Негормональная коррекция нарушений менструального цикла.
+									li
+										span.d-none 5.
+										span Лечение бесплодия.
+
+
+
+
+					div(class="swiper-pagination")
+
+	section.section.contact
+		.container
+			.row.contact__list
+				.col-sm-6.contact__col
+					a.contact__item(href="https://api.whatsapp.com/send?phone=79887746311&text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5%2C%20%D1%8F%20%D0%BF%D0%BE%20%D0%BF%D0%BE%D0%B2%D0%BE%D0%B4%D1%83..."
+						target="_top"
+						aria-label="Написать в WhatsApp")
+						+icon("message-circle")
+						.contact__title Написать в WhatsApp
+				.col-sm-6.contact__col
+					a.contact__item(href="tel:+79887746311"
+						target="_top"
+						aria-label="Позвонить на номер")
+						+icon("phone")
+						.contact__title Позвонить на номер
 
 
 block footer

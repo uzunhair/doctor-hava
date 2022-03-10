@@ -1,14 +1,14 @@
 .header {
   padding-top: $container-padding-x;
 
+  .row {
+    min-height: 100px;
+  }
   &__card {
     padding: $container-padding-x;
-    border-radius: 5px 5px 0 0;
+    border-radius: 12px 12px 0 0;
     background-color: #dbcbbe;
     position: relative;
-    min-height: 130px;
-    display: flex;
-    align-items: center;
     z-index: 10;
     &:after {
       content: '';
@@ -21,7 +21,7 @@
   }
 
   &__title {
-    font-size: 22px;
+    font-size: 20px;
     margin-bottom: 0.125rem;
     font-weight: 400;
     text-transform: uppercase;

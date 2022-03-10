@@ -84,6 +84,7 @@
     "gulp.spritesmith": "^6.12.1",
     "holderjs": "^2.9.9",
     "jquery": "^3.6.0",
+    "swiper": "^8.0.1",
     "theia-sticky-sidebar": "^1.7.0"
   },
   "keywords": [
