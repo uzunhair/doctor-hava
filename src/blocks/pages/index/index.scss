@@ -3,7 +3,7 @@
   &__card {
     padding: $container-padding-x;
     border-radius: 0 0 14px 14px;
-    background-color: #dbcbbe;
+    background-color: $color-s;
     position: relative;
   }
 
@@ -41,7 +41,7 @@
   }
 
   &__item {
-    background-color: #5CE1E6;
+    background-color: $color-s;
     border-radius: 10px;
     padding: 6px 14px;
     color: rgba(36, 34, 47, 1);
